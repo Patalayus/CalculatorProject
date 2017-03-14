@@ -5,6 +5,9 @@
     Dim operator_selector As Boolean = False
     Dim SquareNumber As Double
     Dim ModdedNumber As Double
+    Dim SquareValue As Double
+    Dim Initial_Value As Double
+    Dim SquareResult As Double
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -156,11 +159,6 @@
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         TextBox2.Focus()
-        SquareNumber = TextBox2.Text
-
-
-
-
     End Sub
 
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
@@ -170,6 +168,110 @@
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub Button16_Click_1(sender As Object, e As EventArgs) Handles Button16.Click
+
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        TextBox1.Text = SquareValue * (Initial_Value * Initial_Value)
+    End Sub
+
+    Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "1"
+        Else
+            TextBox2.Text = "1"
+        End If
+    End Sub
+
+    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "2"
+        Else
+            TextBox2.Text = "2"
+        End If
+    End Sub
+
+    Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "3"
+        Else
+            TextBox2.Text = "3"
+        End If
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "4"
+        Else
+            TextBox2.Text = "4"
+        End If
+    End Sub
+
+    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "5"
+        Else
+            TextBox2.Text = "5"
+        End If
+    End Sub
+
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "6"
+        Else
+            TextBox2.Text = "6"
+        End If
+    End Sub
+
+    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "7"
+        Else
+            TextBox2.Text = "7"
+        End If
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "8"
+        Else
+            TextBox2.Text = "8"
+        End If
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "9"
+        Else
+            TextBox2.Text = "9"
+        End If
+    End Sub
+
+    Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
+        If TextBox2.Text <> "0" Then
+            TextBox2.Text += "0"
+        Else
+            TextBox2.Text = "0"
+        End If
+    End Sub
+
+    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+        TextBox2.Text = ""
+    End Sub
+
+    Private Sub Button34_Click(sender As Object, e As EventArgs) Handles Button34.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
