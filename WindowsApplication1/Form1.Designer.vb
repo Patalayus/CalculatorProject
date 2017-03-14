@@ -42,21 +42,22 @@ Partial Class Form1
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Rockwell", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(31, 22)
+        Me.TextBox1.Location = New System.Drawing.Point(14, 12)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(245, 45)
+        Me.TextBox1.Size = New System.Drawing.Size(234, 45)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button1.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(42, 138)
+        Me.Button1.Location = New System.Drawing.Point(14, 116)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(54, 47)
         Me.Button1.TabIndex = 1
@@ -67,7 +68,7 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button2.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(102, 138)
+        Me.Button2.Location = New System.Drawing.Point(74, 116)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(54, 47)
         Me.Button2.TabIndex = 2
@@ -78,7 +79,7 @@ Partial Class Form1
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(162, 138)
+        Me.Button3.Location = New System.Drawing.Point(134, 116)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(54, 47)
         Me.Button3.TabIndex = 3
@@ -89,7 +90,7 @@ Partial Class Form1
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button4.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(42, 191)
+        Me.Button4.Location = New System.Drawing.Point(14, 169)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(54, 47)
         Me.Button4.TabIndex = 4
@@ -100,7 +101,7 @@ Partial Class Form1
         '
         Me.Button5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button5.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(102, 191)
+        Me.Button5.Location = New System.Drawing.Point(74, 169)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(54, 47)
         Me.Button5.TabIndex = 5
@@ -111,7 +112,7 @@ Partial Class Form1
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button6.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(162, 191)
+        Me.Button6.Location = New System.Drawing.Point(134, 169)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(54, 47)
         Me.Button6.TabIndex = 6
@@ -122,7 +123,7 @@ Partial Class Form1
         '
         Me.Button7.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button7.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(42, 244)
+        Me.Button7.Location = New System.Drawing.Point(14, 222)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(54, 47)
         Me.Button7.TabIndex = 7
@@ -133,7 +134,7 @@ Partial Class Form1
         '
         Me.Button8.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button8.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(102, 244)
+        Me.Button8.Location = New System.Drawing.Point(74, 222)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(54, 47)
         Me.Button8.TabIndex = 8
@@ -144,7 +145,7 @@ Partial Class Form1
         '
         Me.Button9.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button9.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(162, 244)
+        Me.Button9.Location = New System.Drawing.Point(134, 222)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(54, 47)
         Me.Button9.TabIndex = 9
@@ -155,7 +156,7 @@ Partial Class Form1
         '
         Me.Button10.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button10.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(102, 297)
+        Me.Button10.Location = New System.Drawing.Point(74, 275)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(54, 47)
         Me.Button10.TabIndex = 10
@@ -166,7 +167,7 @@ Partial Class Form1
         '
         Me.Button11.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button11.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(222, 191)
+        Me.Button11.Location = New System.Drawing.Point(194, 169)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(54, 47)
         Me.Button11.TabIndex = 14
@@ -177,7 +178,7 @@ Partial Class Form1
         '
         Me.Button12.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button12.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(222, 297)
+        Me.Button12.Location = New System.Drawing.Point(194, 275)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(54, 47)
         Me.Button12.TabIndex = 13
@@ -188,7 +189,7 @@ Partial Class Form1
         '
         Me.Button13.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button13.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(222, 244)
+        Me.Button13.Location = New System.Drawing.Point(194, 222)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(54, 47)
         Me.Button13.TabIndex = 12
@@ -199,7 +200,7 @@ Partial Class Form1
         '
         Me.Button14.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button14.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(222, 138)
+        Me.Button14.Location = New System.Drawing.Point(194, 116)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(54, 47)
         Me.Button14.TabIndex = 11
@@ -210,7 +211,7 @@ Partial Class Form1
         '
         Me.Button15.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button15.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(162, 297)
+        Me.Button15.Location = New System.Drawing.Point(134, 275)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(54, 47)
         Me.Button15.TabIndex = 15
@@ -221,7 +222,7 @@ Partial Class Form1
         '
         Me.Button16.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button16.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(42, 85)
+        Me.Button16.Location = New System.Drawing.Point(14, 63)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(54, 47)
         Me.Button16.TabIndex = 16
@@ -232,7 +233,7 @@ Partial Class Form1
         '
         Me.Button17.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button17.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(162, 85)
+        Me.Button17.Location = New System.Drawing.Point(134, 63)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(54, 47)
         Me.Button17.TabIndex = 17
@@ -243,7 +244,7 @@ Partial Class Form1
         '
         Me.Button18.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button18.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Location = New System.Drawing.Point(222, 85)
+        Me.Button18.Location = New System.Drawing.Point(194, 63)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(54, 47)
         Me.Button18.TabIndex = 18
@@ -254,18 +255,30 @@ Partial Class Form1
         '
         Me.Button19.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button19.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(102, 85)
+        Me.Button19.Location = New System.Drawing.Point(74, 63)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(54, 47)
         Me.Button19.TabIndex = 19
         Me.Button19.Text = "Del"
         Me.Button19.UseVisualStyleBackColor = False
         '
+        'Button20
+        '
+        Me.Button20.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button20.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button20.Location = New System.Drawing.Point(14, 275)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(54, 47)
+        Me.Button20.TabIndex = 20
+        Me.Button20.Text = "."
+        Me.Button20.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(314, 370)
+        Me.ClientSize = New System.Drawing.Size(260, 330)
+        Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
@@ -313,4 +326,5 @@ Partial Class Form1
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
 End Class
