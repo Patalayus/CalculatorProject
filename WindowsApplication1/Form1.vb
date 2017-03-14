@@ -3,6 +3,8 @@
     Dim Secondnum As Decimal
     Dim operation As Integer
     Dim operator_selector As Boolean = False
+    Dim SquareNumber As Double
+    Dim ModdedNumber As Double
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -86,7 +88,7 @@
         End If
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
         TextBox1.Text = "0"
     End Sub
 
@@ -142,5 +144,32 @@
             End If
             operator_selector = False
         End If
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        TextBox1.Text = ""
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        TextBox2.Focus()
+        SquareNumber = TextBox2.Text
+
+
+
+
+    End Sub
+
+    Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
+        ModdedNumber = TextBox1.Text * TextBox1.Text
+        TextBox1.Text = ModdedNumber
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
     End Sub
 End Class
