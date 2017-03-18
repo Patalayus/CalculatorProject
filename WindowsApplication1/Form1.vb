@@ -11,6 +11,10 @@
     Dim ValueTotal As Single
     Dim SquareValue2 As Single
     Dim SquareResult2 As Double
+    Dim SquareValue3 As Single
+    Dim SquareValue4 As Single
+    Dim SquareResult3 As Single
+    Dim SquareResult4 As Single
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -133,7 +137,8 @@
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        TextBox1.Text = SquareValue
+        TextBox1.Text = SquareResult
+        TextBox1.Text = SquareResult2
         If operator_selector = True Then
             Secondnum = TextBox1.Text
             If operation = 1 Then
@@ -160,11 +165,15 @@
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
         TextBox1.Text = ""
         SquareValue = 0
+        SquareValue2 = 0
+        SquareValue3 = 0
+        SquareValue4 = 0
+
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         SquareValue = TextBox1.Text * TextBox1.Text
-
+        SquareResult = SquareValue
     End Sub
 
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
@@ -201,5 +210,20 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button22_Click_1(sender As Object, e As EventArgs) Handles Button22.Click
+        SquareValue2 = TextBox1.Text * TextBox1.Text * TextBox1.Text
+        SquareResult2 = SquareValue2
+    End Sub
+
+    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
+        SquareValue3 = TextBox1.Text * TextBox1.Text * TextBox1.Text * TextBox1.Text
+        SquareResult3 = SquareValue3
+    End Sub
+
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        SquareValue4 = TextBox1.Text * TextBox1.Text * TextBox1.Text * TextBox1.Text * TextBox1.Text
+        SquareResult4 = SquareValue4
     End Sub
 End Class
