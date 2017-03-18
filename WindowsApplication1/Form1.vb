@@ -9,6 +9,8 @@
     Dim Initial_Value As Double
     Dim SquareResult As Double
     Dim ValueTotal As Single
+    Dim SquareValue2 As Single
+    Dim SquareResult2 As Double
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -131,6 +133,7 @@
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        TextBox1.Text = SquareValue
         If operator_selector = True Then
             Secondnum = TextBox1.Text
             If operation = 1 Then
@@ -156,10 +159,11 @@
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
         TextBox1.Text = ""
+        SquareValue = 0
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-
+        SquareValue = TextBox1.Text * TextBox1.Text
 
     End Sub
 
@@ -169,7 +173,7 @@
 
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -177,96 +181,18 @@
 
     End Sub
 
-    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
-
+    Private Sub Button22_Click(sender As Object, e As EventArgs)
+        TextBox1.Text = SquareValue
     End Sub
 
-    Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "1"
-        Else
-            TextBox2.Text = "1"
-        End If
-    End Sub
 
-    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "2"
-        Else
-            TextBox2.Text = "2"
-        End If
-    End Sub
-
-    Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "3"
-        Else
-            TextBox2.Text = "3"
-        End If
-    End Sub
-
-    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "4"
-        Else
-            TextBox2.Text = "4"
-        End If
-    End Sub
-
-    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "5"
-        Else
-            TextBox2.Text = "5"
-        End If
-    End Sub
-
-    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "6"
-        Else
-            TextBox2.Text = "6"
-        End If
-    End Sub
-
-    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "7"
-        Else
-            TextBox2.Text = "7"
-        End If
-    End Sub
-
-    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "8"
-        Else
-            TextBox2.Text = "8"
-        End If
-    End Sub
-
-    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "9"
-        Else
-            TextBox2.Text = "9"
-        End If
-    End Sub
-
-    Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
-        If TextBox2.Text <> "0" Then
-            TextBox2.Text += "0"
-        Else
-            TextBox2.Text = "0"
-        End If
-    End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
-        TextBox2.Text = ""
+    Private Sub Button33_Click(sender As Object, e As EventArgs)
+
     End Sub
 
     Private Sub Button34_Click(sender As Object, e As EventArgs) Handles Button34.Click
