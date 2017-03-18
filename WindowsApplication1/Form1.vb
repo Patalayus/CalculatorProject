@@ -8,6 +8,7 @@
     Dim SquareValue As Double
     Dim Initial_Value As Double
     Dim SquareResult As Double
+    Dim ValueTotal As Single
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -158,7 +159,8 @@
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        TextBox2.Focus()
+
+
     End Sub
 
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
@@ -176,7 +178,7 @@
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
-        TextBox1.Text = SquareValue * (Initial_Value * Initial_Value)
+
     End Sub
 
     Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click

@@ -65,6 +65,7 @@ Partial Class Form1
         Me.TextBox1.Font = New System.Drawing.Font("Rockwell", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(12, 58)
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(234, 45)
         Me.TextBox1.TabIndex = 0
         '
@@ -269,12 +270,12 @@ Partial Class Form1
         'Button18
         '
         Me.Button18.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button18.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button18.Location = New System.Drawing.Point(276, 215)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(54, 47)
         Me.Button18.TabIndex = 22
-        Me.Button18.Text = "%"
+        Me.Button18.Text = "%="
         Me.Button18.UseVisualStyleBackColor = False
         '
         'TextBox2
@@ -282,6 +283,7 @@ Partial Class Form1
         Me.TextBox2.Font = New System.Drawing.Font("Rockwell", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(276, 58)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(234, 45)
         Me.TextBox2.TabIndex = 23
         '
