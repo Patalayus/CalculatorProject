@@ -15,6 +15,7 @@
     Dim SquareValue4 As Single
     Dim x10result As Single
     Dim remainder As Single
+    Dim StoD As Single
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -225,5 +226,10 @@
     Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
         SquareValue4 = TextBox1.Text * TextBox1.Text * TextBox1.Text * TextBox1.Text * TextBox1.Text
         TextBox1.Text = SquareValue4
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        StoD = TextBox1.Text / 100
+        TextBox1.Text = StoD & "/100"
     End Sub
 End Class
