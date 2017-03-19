@@ -13,6 +13,8 @@
     Dim SquareResult2 As Double
     Dim SquareValue3 As Single
     Dim SquareValue4 As Single
+    Dim x10result As Single
+    Dim remainder As Single
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -173,9 +175,9 @@
     End Sub
 
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
-        ModdedNumber = TextBox1.Text * TextBox1.Text
+        ModdedNumber = 10 \ TextBox1.Text
+        remainder = 10 - ModdedNumber
         TextBox1.Text = ModdedNumber
-
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
@@ -183,7 +185,8 @@
     End Sub
 
     Private Sub Button16_Click_1(sender As Object, e As EventArgs) Handles Button16.Click
-
+        x10result = TextBox1.Text * 10
+        TextBox1.Text = x10result
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs)

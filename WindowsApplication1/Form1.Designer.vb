@@ -262,23 +262,23 @@ Partial Class Form1
         'Button18
         '
         Me.Button18.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button18.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button18.Location = New System.Drawing.Point(247, 186)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(54, 47)
         Me.Button18.TabIndex = 22
-        Me.Button18.Text = "%="
+        Me.Button18.Text = "%10="
         Me.Button18.UseVisualStyleBackColor = False
         '
         'Button16
         '
         Me.Button16.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button16.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button16.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button16.Location = New System.Drawing.Point(247, 239)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(54, 47)
         Me.Button16.TabIndex = 24
-        Me.Button16.Text = "√"
+        Me.Button16.Text = "x10="
         Me.Button16.UseVisualStyleBackColor = False
         '
         'Button21
