@@ -224,7 +224,7 @@ Partial Class Form1
         '
         Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button15.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(127, 292)
+        Me.Button15.Location = New System.Drawing.Point(7, 292)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(54, 47)
         Me.Button15.TabIndex = 15
@@ -246,7 +246,7 @@ Partial Class Form1
         '
         Me.Button20.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button20.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Location = New System.Drawing.Point(7, 292)
+        Me.Button20.Location = New System.Drawing.Point(127, 292)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(54, 47)
         Me.Button20.TabIndex = 20
@@ -361,7 +361,7 @@ Partial Class Form1
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(54, 47)
         Me.Button23.TabIndex = 49
-        Me.Button23.Text = "xπ"
+        Me.Button23.Text = "xπ="
         Me.Button23.UseVisualStyleBackColor = False
         '
         'Button24
@@ -372,7 +372,7 @@ Partial Class Form1
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(54, 47)
         Me.Button24.TabIndex = 48
-        Me.Button24.Text = "Tan()"
+        Me.Button24.Text = "s<>d/100"
         Me.Button24.UseVisualStyleBackColor = False
         '
         'Button28
@@ -389,12 +389,12 @@ Partial Class Form1
         'Button29
         '
         Me.Button29.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button29.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button29.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button29.Location = New System.Drawing.Point(307, 133)
         Me.Button29.Name = "Button29"
         Me.Button29.Size = New System.Drawing.Size(54, 47)
         Me.Button29.TabIndex = 50
-        Me.Button29.Text = "Log()"
+        Me.Button29.Text = "/π="
         Me.Button29.UseVisualStyleBackColor = False
         '
         'Button25

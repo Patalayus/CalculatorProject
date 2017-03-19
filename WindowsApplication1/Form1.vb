@@ -16,9 +16,10 @@
     Dim x10result As Single
     Dim remainder As Single
     Dim StoD As Single
-    Dim PieTimes As Double
+    Dim PieTimes As Single
     Dim ModdedNumber100 As Double
     Dim TImes100 As Double
+    Dim DivisionPi As Single
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -236,16 +237,17 @@
 
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         StoD = TextBox1.Text / 100
-        TextBox1.Text = StoD & "/100"
+        TextBox1.Text = StoD & "/1"
     End Sub
 
     Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
-
+        DivisionPi = TextBox1.Text / 3.141593654
+        TextBox1.Text = DivisionPi & "= x / π"
     End Sub
 
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         PieTimes = TextBox1.Text * 3.141592654
-        TextBox1.Text = PieTimes
+        TextBox1.Text = PieTimes & "= x * π"
     End Sub
 
     Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
@@ -265,5 +267,10 @@
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        StoD = TextBox1.Text / 1000
+        TextBox1.Text = StoD / 10 & "/0.1"
     End Sub
 End Class
