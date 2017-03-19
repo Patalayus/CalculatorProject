@@ -16,6 +16,7 @@
     Dim x10result As Single
     Dim remainder As Single
     Dim StoD As Single
+    Dim PieTimes As Double
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -231,5 +232,14 @@
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         StoD = TextBox1.Text / 100
         TextBox1.Text = StoD & "/100"
+    End Sub
+
+    Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
+
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        PieTimes = TextBox1.Text * 3.141592654
+        TextBox1.Text = PieTimes
     End Sub
 End Class
