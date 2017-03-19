@@ -178,6 +178,7 @@
         ModdedNumber = 10 \ TextBox1.Text
         remainder = 10 - ModdedNumber
         TextBox1.Text = ModdedNumber
+
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
