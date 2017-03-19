@@ -17,6 +17,8 @@
     Dim remainder As Single
     Dim StoD As Single
     Dim PieTimes As Double
+    Dim ModdedNumber100 As Double
+    Dim TImes100 As Double
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text <> "0" Then
@@ -179,8 +181,11 @@
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
         ModdedNumber = 10 \ TextBox1.Text
         remainder = 10 - ModdedNumber
-        TextBox1.Text = ModdedNumber
-
+        If ModdedNumber = 1 Then
+            TextBox1.Text = ModdedNumber & " Time"
+        Else
+            TextBox1.Text = ModdedNumber & " Times"
+        End If
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
@@ -241,5 +246,24 @@
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         PieTimes = TextBox1.Text * 3.141592654
         TextBox1.Text = PieTimes
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+        ModdedNumber100 = 100 \ TextBox1.Text
+        If ModdedNumber100 = 1 Then
+            TextBox1.Text = ModdedNumber100 & " Time"
+        Else
+            TextBox1.Text = ModdedNumber100 & " Times"
+        End If
+
+    End Sub
+
+    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+        Times100 = TextBox1.Text * 100
+        TextBox1.Text = Times100
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class

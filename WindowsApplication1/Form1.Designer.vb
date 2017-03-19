@@ -51,9 +51,9 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
         Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button25 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.TextBox1.Location = New System.Drawing.Point(7, 29)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(344, 45)
+        Me.TextBox1.Size = New System.Drawing.Size(354, 45)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
@@ -347,7 +347,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Ubuntu Mono", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(201, 4)
+        Me.Label1.Location = New System.Drawing.Point(211, 4)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(150, 22)
         Me.Label1.TabIndex = 45
@@ -375,26 +375,15 @@ Partial Class Form1
         Me.Button24.Text = "Tan()"
         Me.Button24.UseVisualStyleBackColor = False
         '
-        'Button25
-        '
-        Me.Button25.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button25.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button25.Location = New System.Drawing.Point(307, 239)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(54, 47)
-        Me.Button25.TabIndex = 47
-        Me.Button25.Text = "Cos()"
-        Me.Button25.UseVisualStyleBackColor = False
-        '
         'Button28
         '
         Me.Button28.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button28.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button28.Font = New System.Drawing.Font("Rockwell", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button28.Location = New System.Drawing.Point(307, 186)
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(54, 47)
         Me.Button28.TabIndex = 46
-        Me.Button28.Text = "Sin()"
+        Me.Button28.Text = "%100="
         Me.Button28.UseVisualStyleBackColor = False
         '
         'Button29
@@ -408,16 +397,27 @@ Partial Class Form1
         Me.Button29.Text = "Log()"
         Me.Button29.UseVisualStyleBackColor = False
         '
+        'Button25
+        '
+        Me.Button25.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button25.Font = New System.Drawing.Font("Rockwell", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button25.Location = New System.Drawing.Point(307, 240)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(54, 47)
+        Me.Button25.TabIndex = 51
+        Me.Button25.Text = "x100="
+        Me.Button25.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkGray
-        Me.ClientSize = New System.Drawing.Size(363, 347)
+        Me.ClientSize = New System.Drawing.Size(368, 347)
+        Me.Controls.Add(Me.Button25)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.Button23)
         Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.Button25)
         Me.Controls.Add(Me.Button28)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button27)
@@ -482,7 +482,7 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Button23 As Button
     Friend WithEvents Button24 As Button
-    Friend WithEvents Button25 As Button
     Friend WithEvents Button28 As Button
     Friend WithEvents Button29 As Button
+    Friend WithEvents Button25 As Button
 End Class
